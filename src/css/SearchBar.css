@@ -1,0 +1,36 @@
+.inputSearch{
+    padding: 1rem 1rem;
+    width: 80%;
+    margin: 1rem;
+    border: 2px solid #cacaca;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.inputSearch:focus{
+    border-color: rgb(39, 39, 39);
+}
+
+.inputFound, .inputFound:focus{
+    border-color: #379237;
+    background: #bfe9bf;
+    color: #379237;
+}
+
+.inputNotFound, .inputNotFound:focus{
+    border-color: rgb(189, 16, 16);
+    color: rgb(189, 16, 16);
+    background-color: rgb(247, 186, 186);;
+}
+
+.notFound{
+    color: rgb(189, 16, 16);
+    font-weight: bolder;
+}
+
+.found{
+    color: #379237;
+    font-weight: bolder;
+}

@@ -1,0 +1,31 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 10%;
+}
+
+.leftSection{
+  height: 100%;
+  display: flex;
+  width: 49%;
+  flex-direction: column;
+  float: left;
+  padding: 5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rightSection{
+  height: 100%;
+  display: flex;
+  width: 49%;
+  flex-direction: column;
+  float: right;
+  padding: 5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
